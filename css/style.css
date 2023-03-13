@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Reset */
+
+body{
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+    background-color: #212121;
+}
+
+.container-centered{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+
+    height: 100vh;
+}
+
+.container-centered h1{
+    font-size: 3em;
+}
